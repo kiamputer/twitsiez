@@ -37,7 +37,7 @@ oauth.get(
     keys.access_token_secret,
     function (error, body, response){
         if (error) console.error(error);
-        console.log(body);
+        //console.log(body);
     });
 
 //POST statuses/update: https://api.twitter.com/1.1/statuses/update.json
@@ -49,7 +49,7 @@ function postTweet(postBody) {
         keys.access_token_secret,
         status,
         function(error, body) {
-            console.log('postTweet body:\n' + (error || body));
+           // console.log('postTweet body:\n' + (error || body));
         });
 }
 module.exports = {
