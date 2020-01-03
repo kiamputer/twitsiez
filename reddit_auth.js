@@ -57,7 +57,6 @@ function generateData(callback) {
             }
             parseText(data, callback)
         });
-    //console.log(posts);
 }
 
  module.exports = {

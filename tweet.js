@@ -3,7 +3,7 @@ const reddit = require('./reddit_auth');
 const generator = require('./gen_tweet');
 
 function startTwitsiez() {
-    var postBody = generateTweet();
+    //var postBody = generateTweet();
     twitter.postTweet(postBody)
 }
 
